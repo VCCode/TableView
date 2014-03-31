@@ -14,13 +14,13 @@
 		787D3A9718E99C2600D0B7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D3A9618E99C2600D0B7D8 /* main.m */; };
 		787D3A9B18E99C2600D0B7D8 /* VCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D3A9A18E99C2600D0B7D8 /* VCAppDelegate.m */; };
 		787D3A9E18E99C2600D0B7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787D3A9C18E99C2600D0B7D8 /* Main.storyboard */; };
-		787D3AA118E99C2600D0B7D8 /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D3AA018E99C2600D0B7D8 /* VCViewController.m */; };
 		787D3AA318E99C2600D0B7D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787D3AA218E99C2600D0B7D8 /* Images.xcassets */; };
 		787D3AAA18E99C2600D0B7D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787D3AA918E99C2600D0B7D8 /* XCTest.framework */; };
 		787D3AAB18E99C2600D0B7D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787D3A8A18E99C2600D0B7D8 /* Foundation.framework */; };
 		787D3AAC18E99C2600D0B7D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787D3A8E18E99C2600D0B7D8 /* UIKit.framework */; };
 		787D3AB418E99C2600D0B7D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787D3AB218E99C2600D0B7D8 /* InfoPlist.strings */; };
 		787D3AB618E99C2600D0B7D8 /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D3AB518E99C2600D0B7D8 /* UITableViewController_ChallengeTests.m */; };
+		787D3AC118E9A36A00D0B7D8 /* VCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D3AC018E9A36A00D0B7D8 /* VCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		787D3A9918E99C2600D0B7D8 /* VCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAppDelegate.h; sourceTree = "<group>"; };
 		787D3A9A18E99C2600D0B7D8 /* VCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAppDelegate.m; sourceTree = "<group>"; };
 		787D3A9D18E99C2600D0B7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		787D3A9F18E99C2600D0B7D8 /* VCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCViewController.h; sourceTree = "<group>"; };
-		787D3AA018E99C2600D0B7D8 /* VCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
 		787D3AA218E99C2600D0B7D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		787D3AA818E99C2600D0B7D8 /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		787D3AA918E99C2600D0B7D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		787D3AB118E99C2600D0B7D8 /* UITableViewController ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		787D3AB318E99C2600D0B7D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		787D3AB518E99C2600D0B7D8 /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		787D3ABF18E9A36A00D0B7D8 /* VCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTableViewController.h; sourceTree = "<group>"; };
+		787D3AC018E9A36A00D0B7D8 /* VCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				787D3A9918E99C2600D0B7D8 /* VCAppDelegate.h */,
 				787D3A9A18E99C2600D0B7D8 /* VCAppDelegate.m */,
 				787D3A9C18E99C2600D0B7D8 /* Main.storyboard */,
-				787D3A9F18E99C2600D0B7D8 /* VCViewController.h */,
-				787D3AA018E99C2600D0B7D8 /* VCViewController.m */,
+				787D3ABF18E9A36A00D0B7D8 /* VCTableViewController.h */,
+				787D3AC018E9A36A00D0B7D8 /* VCTableViewController.m */,
 				787D3AA218E99C2600D0B7D8 /* Images.xcassets */,
 				787D3A9118E99C2600D0B7D8 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				787D3A9718E99C2600D0B7D8 /* main.m in Sources */,
-				787D3AA118E99C2600D0B7D8 /* VCViewController.m in Sources */,
+				787D3AC118E9A36A00D0B7D8 /* VCTableViewController.m in Sources */,
 				787D3A9B18E99C2600D0B7D8 /* VCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
